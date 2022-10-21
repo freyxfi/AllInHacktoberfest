@@ -2,3 +2,6 @@
 ## Open to contribute 
 ## skills required :- C, Python, HTML5
 
+![1](img/game.png)
+
+
