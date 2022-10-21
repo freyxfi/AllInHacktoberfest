@@ -27,9 +27,17 @@ Scissors=('''
 ---.__(___)
 ''')
 
+# set initial value for user_move
+user_move = -1
+
 game_ascii = [Rock, Paper, Scissors]
 
-user_move = int(input("What do you choose for rock 0, for paper 1 for scissors 2.:-"))
+while (user_move < 0) or (user_move > 2):
+    try:
+        user_move = int(input("What do you choose for rock 0, for paper 1 for scissors 2.:-"))
+    except ValueError:
+        print("Please insert a valid command")
+        
 print(game_ascii[user_move])
 
 computer_move = random.randint(0,2)
