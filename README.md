@@ -6,6 +6,6 @@
 ![1](img/game.png)
 
 # Ping Pong Game
-![2](img/pong.png)
+![2](img/ping.png)
 
 
