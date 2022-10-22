@@ -1,7 +1,11 @@
 # Hacktober 2022 
 ## Open to contribute 
-## skills required :- C, Python, HTML5
+## Make a PR with any simple game you have created in any language 
 
+# Rock Paper And Scissors
 ![1](img/game.png)
+
+# Ping Pong Game
+![2](img/pong.png)
 
 
