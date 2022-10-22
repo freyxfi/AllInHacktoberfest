@@ -14,5 +14,7 @@
 #Tic-Tak-Toe
 ![4](img/ttt.png)
 
+#Bubble Shooter
+![4](img/bubble.png)
 
 
