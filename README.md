@@ -8,4 +8,7 @@
 # Ping Pong Game
 ![2](img/ping.png)
 
+# Snake Game 
+![3](img/snake.png)
+
 
