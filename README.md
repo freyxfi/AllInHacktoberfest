@@ -14,6 +14,8 @@
 #Tic-Tak-Toe
 ![4](img/ttt.png)
 
+#Bubble Shooter
+![4](img/bubble.png)
 
 # How to Make a pull request on github
 => Find a project you want to contribute to.
