@@ -1,6 +1,6 @@
 from turtle import *
 
-#Diameter-Present diameter
+#Diameter-initial diameter when screen is on for the first time
 #Pop_diameter: Diameter when the ballon is popped
 
 diameter = 20
