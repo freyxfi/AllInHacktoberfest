@@ -5,7 +5,7 @@ from turtle import *
 
 diameter = 20
 pop_diameter = 100
-color_list = ["red", "black", "blue", "yellow", "green"]
+color_list = ["red", "black", "blue", "yellow", "green"] #Circularly rotated
 cur_color_index = 0
 
 
@@ -19,7 +19,7 @@ def draw_ballon_func():
 def change_color():
     global cur_color_index
     global diameter
-    cur_color_index += 1
+    cur_color_index += 1 #On right arrow key clicking, color changes
     cur_color_index = cur_color_index % 5
     color(color_list[cur_color_index])
     dot(diameter)
