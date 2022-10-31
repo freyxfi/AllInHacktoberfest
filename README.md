@@ -1,31 +1,37 @@
-# Hacktober 2022 
-## Open to contribute 
-## Make a PR with any simple game you have created in any language 
+# Hacktoberfest 2022 
+## We are Open for Contributions
+## Make a PR with a game created with a language of your choice
+**Below is a list of games you can work on**
 
-# Rock Paper And Scissors
+### Rock Paper Scissors
+
 ![1](img/game.png)
 
-# Ping Pong Game
+### Ping Pong Game
+
 ![2](img/ping.png)
 
-# Snake Game 
+### Snake Game
+
 ![3](img/snake.png)
 
-#Tic-Tak-Toe
+### Tic-Tak-Toe
+
 ![4](img/ttt.png)
 
-#Bubble Shooter
+### Bubble Shooter
 ![4](img/bubble.png)
 
-# How to Make a pull request on github
-=> Find a project you want to contribute to.
-=> Fork it.
-=> Clone it to your local system.
-=> Make a new branch.
+# Creating a Pull Request
+=> On the repository page, create a Fork of this repository.
+=> Clone the forked repository to your local machine.
+=> Create a new branch.
 => Make your changes.
-=> Push it back to your repo.
-=> Click the Compare & pull request button.
+=> Stage the changes and push to your forked repository.
+=> On your Github page, Click the Compare & pull request button.
 => Click Create pull request to open a new pull request.
+
+#### The maintainer will then review your proposed changes and merge them to the main repository
 
 # How to clone a repositroy on github
 ![image](https://user-images.githubusercontent.com/74889769/197358100-9b5a72cd-caa8-481e-b48b-0bd621fde5bf.png)
