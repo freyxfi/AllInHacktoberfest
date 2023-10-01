@@ -1,21 +1,9 @@
-# Hacktober 2022 
+# Hacktober 2023 
 ## Open to contribute 
 ## Make a PR with any simple game you have created in any language 
 
-# Rock Paper And Scissors
-![1](img/game.png)
+` ⭐ Please star this repo for showing your trust and support ⭐ `
 
-# Ping Pong Game
-![2](img/ping.png)
-
-# Snake Game 
-![3](img/snake.png)
-
-#Tic-Tak-Toe
-![4](img/ttt.png)
-
-#Bubble Shooter
-![4](img/bubble.png)
 
 # How to Make a pull request on github
 => Find a project you want to contribute to.
@@ -35,3 +23,20 @@
 4. Change the current working directory to the location where you want the cloned directory.
 5. Type git clone, and then paste the URL you copied earlier.
 6. Press Enter to create your local clone.
+
+
+# Rock Paper And Scissors
+![1](img/game.png)
+
+# Ping Pong Game
+![2](img/ping.png)
+
+# Snake Game 
+![3](img/snake.png)
+
+#Tic-Tak-Toe
+![4](img/ttt.png)
+
+#Bubble Shooter
+![4](img/bubble.png)
+
