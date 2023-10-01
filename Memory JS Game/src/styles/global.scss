@@ -1,0 +1,41 @@
+@import "./theme.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    @media only screen and (max-width: 900px) {
+        font-size: 56%;
+    }
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    height: 100%;
+    color: #555;
+    @include themify($themes) {
+        background-image: radial-gradient(
+            themed("bgColorSecondary") 5%,
+            themed("bgColorPrimary")
+        );
+    }
+    // background-image: radial-gradient(#39d6ff 5%, #007e9f);
+    // background-image: radial-gradient(#c49e80 5%, #815a3b);
+}
+
+// ul {
+//     list-style: none;
+// }
