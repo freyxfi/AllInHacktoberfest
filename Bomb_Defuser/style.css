@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.timer-container {
+    background-color: #00bafc;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+}
+
+.timer-display {
+    font-size: 50px;
+    color: white;
+}
+
+.user-input {
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 6px;
+    text-align: center;
+}
+
+.bomb-image {
+    margin-top: 40px;
+    width: 150px;
+}
+
+.paraEl {
+    color: red;
+    font-weight: bold;
+}
