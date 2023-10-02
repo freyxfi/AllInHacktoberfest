@@ -1,0 +1,8 @@
+.loader {
+    &__container {
+        height: calc(100vh - 250px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

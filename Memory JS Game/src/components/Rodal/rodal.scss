@@ -1,0 +1,52 @@
+.rodal {
+
+    &__container {
+        & .rodal-dialog {
+  
+            @media only screen and (max-width: 420px) {
+                width: 350px !important;
+            }
+
+            @media only screen and (max-width: 370px) {
+                width: 315px !important;
+            }
+        }
+    }
+
+    &__title {
+        // font-family: 'Press Start 2P', cursive;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    &__content {
+        border-bottom: 1px solid #ddd;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        min-height: 30%;
+        font-size: 2.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & svg {
+            vertical-align: middle;
+            margin-bottom: 8px;
+        }
+    }
+
+    &__btn-container {
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+
+        @media only screen and (max-width: 600px) {
+            padding-top: 1rem;
+        }
+
+    }
+}

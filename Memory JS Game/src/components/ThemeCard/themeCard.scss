@@ -1,0 +1,43 @@
+.themeBox {
+    width: 30%;
+    min-height: 15rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    // color: #444;
+
+    & img {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        width: 50%;
+        margin-bottom: 2rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.15);
+    }
+
+    &.active {
+        transform: scale(1.15);
+    }
+
+    &--blue {
+        background: #d2f6ff;
+    }
+
+    &--green {
+        background: #beffed;
+    }
+
+    &--brown {
+        background: #e4d3c5;
+    }
+}
