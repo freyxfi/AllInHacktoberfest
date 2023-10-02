@@ -48,9 +48,11 @@ what we make and count
 # Snake Game 
 ![3](img/snake.png)
 
-#Tic-Tak-Toe
+# Tic-Tak-Toe
 ![4](img/ttt.png)
 
-#Bubble Shooter
+# Bubble Shooter
 ![4](img/bubble.png)
 
+# Number Guess
+![5](img/number_g.png)
