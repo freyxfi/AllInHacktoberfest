@@ -1,35 +1,156 @@
 <!doctype html>
 
 <html>
-  <head>
-    <title> Hacktoberfest 2022 </title>
-  </head>
+    <head>
+        <title>
+            Hacktoberfest 2022
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+        </style>
+    </head>
 
-  <body>
-    <img style="height: 150px" src="img/hacktoberfest-22.png" />
-    <h1>Rock Paper Scissors</h1>
-    <p>This is a command-line interface to play the best game of all time: Rock, Paper, Scissors.</p>
-    <h2>Rules of the Game</h2>
-    <p>
-      <li>Rock wins against scissors.</li>
-      <li>Scissors win against paper.</li>
-      <li>Paper wins against rock.</li>
-    </p>
-    <h2>How to play</h2>
-    <p>
-      <li>
-        Clone the project. It's available on
-        <a href="https://github.com/LastDeadlock/hacktoberfest" target="_blank">GitHub</a>.
-      </li>
-      <li>
-        Run with: python rockpaperscissor.py
-      </li>
-      <li>
-        Follow the prompts. <br/>
-        0 = Rock <br/>
-        1 = Paper <br/>
-        2 = Scissors
-      </li>
-    </p>
-  </body>
+    <body
+      style="
+        background-color: black; 
+        text-align: center; 
+        list-style: none; 
+        width: 98vw;
+        height: 97vh;
+        font-size: 150%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        color: whitesmoke;
+        background-image: url(./img/bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        "
+    >
+        <img
+            style="background-color : wheat; border-radius: 20px; height: 15%;"
+            src="img/hacktoberfest-22.png"/>
+        <h1
+            text-align:="text-align:"
+            center;="center;"
+            font-weight:="font-weight:"
+            bold;="bold;"
+            style="
+              color : red;
+              font-size : 200%;
+              text-transform: uppercase;
+              text-decoration: underline;
+              font-family: 'Piedra', cursive;
+              "
+        >
+          ROCK PAPER SCISSORS
+  </h1>
+
+        <p
+            text-align:="text-align:"
+            center;="center;"
+            font-weight:="font-weight:"
+            bold;="bold;"
+            style = "
+              width: auto;
+              height: fit-content;
+            ">
+            This is a command-line interface to play the best game of all time: Rock, Paper, Scissors.
+        </p>
+        <h2 style="text-transform: uppercase;color : red; ">Rules of the Game</h2>
+        <p>
+            <li>Rock wins against scissors.</li>
+            <li>Scissors win against paper.</li>
+            <li>Paper wins against rock.</li>
+        </p>
+        <h2 style="text-transform: uppercase;color : red;">How to play</h2>
+        <p>
+            <li>
+                Clone the project. It's available on
+                <a href="https://github.com/LastDeadlock/hacktoberfest" target="_blank" style = "color : burlywood;">GitHub</a>.
+            </li>
+            <li>
+                <span style="color : greenyellow; font-size: 130%;">Run with: python rockpaperscissor.py </span>
+                <p>
+                    Follow the prompts.
+                </p>
+            </li>
+            <section style="display: flex; justify-content: center; gap: 20px; width: 100%; height: fit-content;">
+                <li
+                    style="
+                  display: grid-row;
+                  color: black;
+                  font-weight: bolder;
+                  ">
+                    <p
+                        style="
+                      border: 1px solid black;
+                      background-color: burlywood;
+                      width: 100%;
+                      padding: 4px;
+                      border-radius: 5px;
+                    ">
+                        0
+                    </p>
+                    <p
+                        style="
+                      border: 1px solid black;
+                      background-color: burlywood;
+                      width: 100%;
+                      border-radius: 5px;
+                      padding: 4px;
+                      margin-bottom: 0px;">
+                        1
+                    </p>
+                    <p
+                        style="
+                      border: 1px solid black;
+                      background-color: burlywood;
+                      width: 100%;
+                      border-radius: 5px;
+                      padding: 4px;
+                      margin-bottom: 0px;">
+                        2
+                    </p>
+                </li>
+
+                <li
+                    style="
+                  display: grid-row;
+                  color: black;
+                  font-weight: bolder;
+                  ">
+                    <p
+                        style="
+                      border: 1px solid black;
+                      background-color: violet;
+                      width: 100%;
+                      padding: 4px;
+                      border-radius: 5px;
+                    ">
+                        Rock
+                    </p>
+                    <p
+                        style="
+                      border: 1px solid black;
+                      background-color: violet;
+                      width: 100%;
+                      border-radius: 5px;
+                      padding: 4px;">
+                        Paper
+                    </p>
+                    <p
+                        style="
+                      border: 1px solid black;
+                      background-color: violet;
+                      width: 100%;
+                      border-radius: 5px;
+                      padding: 4px;">
+                        Scissors
+                    </p>
+                </li>
+
+            </section>
+        </p>
+    </body>
 </html>
