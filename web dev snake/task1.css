@@ -1,0 +1,185 @@
+#myDiv{
+  /*height: 200px;*/
+  /*width: 200px;*/
+  
+  background-color: rgb(0, 0, 0);
+  margin: 200px 40% 0% 32%;
+  opacity: 0.8;
+  /*position:absolute;*/
+}
+body{
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+font-size: 1.2rem;
+
+}
+h1{
+  opacity: 0.5;
+}
+p{
+  opacity: 0.5;
+}
+
+h2{
+  opacity: 0.5;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pause{
+  text-align: right;
+}
+  
+  #fruit{
+     height: 8px;
+      width: 8px;
+       
+       background-color: rgb(206, 36, 70);
+       border-radius: 100%;
+    }
+    .fruit_ {
+      height: 8px;
+      width: 8px;
+      position: absolute;
+    }
+   
+    
+    .fruit-display {
+      height: 20px;
+      width: 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    #test{
+      height: 8px;
+      width: 8px; 
+       background-color:black;
+       position: absolute; 
+       top: 0px;
+       left: 0px;
+        
+        /* right:0px; */
+        
+    }
+body{
+ background-color:rgb(105, 105, 231);
+ color: azure;
+}
+#msg{
+  color: rgb(24, 5, 61);
+}
+#but{
+  
+  display: flex;
+  flex-direction: row;
+}
+
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+#score{
+  
+  height: 30%;
+  width: 30%;
+}
+#high{
+    
+    text-align: top;
+   height: 30%;
+   width: 30%;
+}
+
+
+#block {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  right:10%;
+  border: none;
+  background-color: #FFCC70;
+  color: white;
+  border-radius: 20%;
+
+  
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#block:hover {
+  background-color: #ddd;
+  color: black;
+}
+#blockk {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  border: none;
+  background-color: #FFCC70;
+  color: white;
+  border-radius: 20%;
+  
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+#blockk:hover {
+  background-color: #ddd;
+  color: black;
+}
+#blockkk {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  border: none;
+  background-color: #FFCC70;
+  color: white;
+  border-radius: 20%;
+  
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#blockkk:hover {
+  background-color: #ddd;
+  color: black;
+}
+#blockkkk {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  border: none;
+  background-color: #FFCC70;
+  color: white;
+  border-radius: 20%;
+  position: relative;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#blockkkk:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+#snake{
+  height: 8px;
+  width: 8px;
+   background-color: rgb(0, 0, 0);
+    position:absolute;
+    /* right:0px; */
+    
+}
+#giuder{
+  height: 50px;
+  width: 50px;
+
+}
