@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- table -->
+    <div class="nav-bar">
+        <ul>
+            <li>File</li>
+            <li>View</li>
+            <li>Help</li>
+            <li style="background-color: azure; color: black;">Edit</li>
+            <li>Setting</li>
+        </ul>
+    </div>
+
+    <div class="funcE">
+        
+        <button id="bold-btn"><span class="material-symbols-outlined">
+            format_bold
+            </span></button>
+        <button id="italics-btn"><span class="material-symbols-outlined">
+            format_italic
+            </span></button>
+        <button id="underline-btn"><span class="material-symbols-outlined">
+            format_underlined
+            </span></button>
+        <button id="left-btn"><span class="material-symbols-outlined">
+            format_align_left
+            </span></button>
+        <button id="center-btn"><span class="material-symbols-outlined">
+            format_align_center
+            </span></button>
+        <button id="right-btn"><span class="material-symbols-outlined">
+            format_align_right
+            </span></button>
+        <select id="font-style-dropdown">
+            <option value="serif">Serif</option>
+            <option value="sans-serif">Sans Serif</option>
+            <option value="monospace">monospace</option>
+            <option value="cursive">Cursive</option>
+        </select>
+        <select id="font-size-dropdown">
+            <option value="10px" contenteditable="true">10</option>
+            <option value="12px">12</option>
+            <option value="14px">14</option>
+            <option value="16px">16</option>
+            <option value="18px">18</option>
+        </select>
+        <label for="bgColor">bg color</label>
+        <input type="color" id="bgColor" />
+
+        <label for="fontColor">font color</label>
+        <input type="color" id="fontColor" />
+
+        <button id="cut-btn">Cut</button>
+        <button id="copy-btn">Copy</button>
+        <button id="paste-btn">Paste</button>
+        <button onclick="downloadMatrix()">Download</button>
+        <input id="upload-input" type="file" accept=".json" />
+    </div>
+    <h1 id="sheet-no">Sheet No - 1</h1>
+    <div>
+        <button id="save-sheet-btn">Save</button>
+        <button id="add-sheet-btn">Add sheet</button>
+    </div>
+    <br>
+    <div id="button-container">
+        <button id="sheet-1" onclick="viewSheet(event)">Sheet 1</button>
+    </div>
+    <br>
+    <table id="my-table">
+        <thead>
+            <tr id="table-heading-row">
+                <th></th>
+                <!-- <th>A</th>
+                <th>B</th>
+                <th>C</th> -->
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- <tr>
+                <th>1</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2</th>
+            </tr> -->
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
