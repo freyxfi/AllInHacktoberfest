@@ -1,0 +1,15 @@
+{
+    "acc": [
+        {
+            "id": 1,
+            "email": "name1@gmail.com",
+            "pass": "password"
+        },
+        {
+            "id": 2,
+            "email": "name2@gmail.com",
+            "pass": "password"
+        }
+    ]
+}
+
